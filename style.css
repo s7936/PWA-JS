@@ -1,0 +1,40 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fffaf0;
+}
+
+.container {
+    padding: 1rem;
+}
+
+nav {
+    margin-bottom: 1rem;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 2.5rem;
+    animation: fadeIn 2s ease-in-out;
+}
+
+img {
+    max-width: 90%;
+    margin: 1rem auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
